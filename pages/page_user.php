@@ -46,7 +46,7 @@ $dir = "./";
 	<link rel="stylesheet" href="css/select2.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/plyr.css">
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/appLight.css">
 	<link type="text/css" rel="stylesheet" href="plugins/loader/waitMe.css">
 	 <link rel="stylesheet" href="plugins/datatable/css/jquery.dataTables.min.css">
 	 <link rel="stylesheet" href="plugins/datatable/css/responsive.bootstrap4.min.css">
