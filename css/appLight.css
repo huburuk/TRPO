@@ -33,7 +33,7 @@ body {
 }
 
 p {
-    color: white !important;
+    color: #b4ad2f !important;
 }
 
 .mb-10 {
@@ -169,9 +169,9 @@ p {
     position: relative;
     z-index: 2;
     height: 44px;
-    color: #e0e0e0;
+    color: #111111;
     padding: 0 60px 0 20px;
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     margin: 0;
     width: 100%;
     font-size: 14px;
@@ -192,7 +192,7 @@ p {
 }
 
 .form__gallery label:hover {
-    color: #fff;
+    color: #111111;
 }
 
 .auto_contact {
@@ -389,7 +389,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #1a1a1a;
+    background: #ccc3c3;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -1442,7 +1442,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
     font-family: Poppins, sans-serif !important;
     font-weight: 400;
-    color: #fff;
+    color: #111111;
     font-size: 30px;
     line-height: 120%;
     margin-bottom: 10px;
@@ -1864,7 +1864,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 50px;
     border-radius: 16px;
-    background-color: #1a1a1a;
+    background-color: #143f62;
 }
 
 .catalog__paginator-wrap--comments {
@@ -2028,7 +2028,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #1a1a1a;
+    background-color: #143f62;
     padding: 20px 20px 0;
     border-radius: 16px;
     position: relative;
@@ -2057,7 +2057,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: flex-start;
     align-items: flex-start;
     height: 40px;
-    color: #fff;
+    color: orange;
     position: relative;
     font-size: 14px;
 }
@@ -2104,7 +2104,7 @@ body::-webkit-scrollbar-thumb {
 
 .profile__logout span {
     font-size: 14px;
-    color: #e0e0e0;
+    color: orange;
     font-weight: 500;
     margin-right: 10px;
     transition: 0.5s;
@@ -2218,7 +2218,7 @@ body::-webkit-scrollbar-thumb {
 .breadcrumb__item {
     font-size: 14px;
     line-height: 22px;
-    color: #e0e0e0;
+    color: #111111;
     transition: 0.5s;
     position: relative;
     margin-right: 34px;
@@ -2260,7 +2260,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .breadcrumb a {
-    color: #fff;
+    color: #111111;
 }
 
 .breadcrumb a:hover {
@@ -3185,7 +3185,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
     padding: 40px 20px;
     border-radius: 16px;
-    background-color: #1a1a1a;
+    background-color: #143f62;
 }
 
 .plans--mt0 {
@@ -3201,7 +3201,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .plans__head b {
-    color: #4a875c;
+    color: orange;
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 14px;
@@ -3323,9 +3323,9 @@ body::-webkit-scrollbar-thumb {
     min-width: 160px;
     height: 50px;
     border-radius: 16px;
-    background-color: #111111;
+    background-color: #b4ad2f;
     font-size: 14px;
-    color: #e0e0e0;
+    color: #111111;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -3584,7 +3584,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
     padding: 20px;
     border-radius: 16px;
-    background-color: #1a1a1a;
+    background-color: #143f62;
 }
 
 .step__number {
@@ -3608,7 +3608,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
-    color: #fff;
+    color: orange;
     margin-bottom: 0;
     margin-left: 20px;
 }
@@ -3618,7 +3618,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     font-size: 16px;
     line-height: 26px;
-    color: #e0e0e0;
+    color: orange;
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -3644,7 +3644,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
     padding: 20px;
     border-radius: 16px;
-    background-color: #1a1a1a;
+    background-color: #143f62;
     width: 100%;
 }
 
@@ -3653,7 +3653,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
-    color: #fff;
+    color: orange;
     margin-bottom: 0;
 }
 
@@ -3794,7 +3794,7 @@ body::-webkit-scrollbar-thumb {
 ==============================*/
 
 .dashbox {
-    background-color: #1a1a1a;
+    background-color: #143f62;
     margin-top: 20px;
     border-radius: 16px;
     overflow: hidden;
@@ -3814,7 +3814,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    color: #fff;
+    color: orange;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
@@ -5587,7 +5587,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__form {
-    background-color: #111111;
+    background-color: #143f62;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -5597,7 +5597,7 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     width: 100%;
     max-width: 400px;
-    border: 1px solid #1a1a1a;
+    border: 1px solid #143f62;
 }
 
 .sign__form--contacts,
@@ -5664,12 +5664,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__input {
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     border: 1px solid transparent;
     border-radius: 16px;
     height: 44px;
     position: relative;
-    color: #fff;
+    color: #111111;
     font-size: 14px;
     width: 100%;
     padding: 0 20px;
@@ -5706,7 +5706,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__input:focus {
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     border-color: #4a875c;
 }
 
@@ -5729,12 +5729,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__textarea {
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     border: 1px solid transparent;
     border-radius: 16px;
     height: 144px;
     position: relative;
-    color: #fff;
+    color: #111111;
     font-size: 14px;
     width: 100%;
     padding: 15px 20px;
@@ -5742,7 +5742,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__textarea:focus {
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     border-color: #4a875c;
 }
 
@@ -5799,7 +5799,7 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     width: 22px;
     height: 22px;
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
     border: 1px solid transparent;
     border-radius: 8px;
 }
@@ -5847,9 +5847,9 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 50px;
     border-radius: 16px;
-    background-color: #4a875c;
+    background-color: #b4ad2f;
     font-size: 14px;
-    color: #e0e0e0;
+    color: #111111;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -5958,7 +5958,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sign__wrap {
-    background-color: #1a1a1a;
+    background-color: #143f62;
     padding: 20px;
     border-radius: 16px;
     margin-top: 20px;

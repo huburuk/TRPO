@@ -46,7 +46,6 @@ $dir = "./";
 	<link rel="stylesheet" href="css/select2.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/plyr.css">
-	<link rel="stylesheet" href="css/appLight.css">
 	<link type="text/css" rel="stylesheet" href="plugins/loader/waitMe.css">
 	 <link rel="stylesheet" href="plugins/datatable/css/jquery.dataTables.min.css">
 	 <link rel="stylesheet" href="plugins/datatable/css/responsive.bootstrap4.min.css">
@@ -90,6 +89,20 @@ $dir = "./";
 
 
 	          </ul>
+<!--                        <div class="container">-->
+<!--                            <div class="catalog__select-wrap">-->
+                                <div class="slider-radio" >
+                                    <input type="radio" name="popular"><label class="light-theme-label"
+                                                                              style="height: 100%;"
+                                                                              onclick="localStorage.setItem('theme', 'light'); location.reload();"
+                                                                              for="popular">Light</label>
+                                    <input type="radio" name="newest"><label class="dark-theme-label"
+                                                                             style="height: 100%;"
+                                                                             onclick="localStorage.setItem('theme', 'dark'); location.reload();"
+                                                                             for="newest">Dark</label>
+                                </div>
+<!--                            </div>-->
+<!--                        </div>-->
 
 						<div class="header__actions">
 							<form autocomplete="OFF" method="POST" action="<?php echo $dir; ?>search_catalog" class="header__form">
@@ -99,7 +112,7 @@ $dir = "./";
 	            </form>
 
 							<a href="./<?php echo $role; ?>" class="header__user">
-								<span>My Account</span>
+								<span><?php echo $_COOKIE['username']?></span>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1,1,0,0,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1A10,10,0,0,0,15.71,12.71ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"/></svg>
 							</a>
 						</div>
@@ -155,6 +168,20 @@ $dir = "./";
 							</li>
 						</ul>
 
+<!--                        <div class="container">-->
+<!--                            <div class="catalog__select-wrap">-->
+                                <div class="slider-radio">
+                                    <input type="radio" name="popular"><label class="light-theme-label"
+                                                                              style="height: 100%;"
+                                                                              onclick="localStorage.setItem('theme', 'light'); location.reload();"
+                                                                              for="popular">Light</label>
+                                    <input type="radio" name="newest"><label class="dark-theme-label"
+                                                                             style="height: 100%;"
+                                                                             onclick="localStorage.setItem('theme', 'dark'); location.reload();"
+                                                                             for="newest">Dark</label>
+                                </div>
+<!--                            </div>-->
+<!--                        </div>-->
 
 						<a href="logout" class="profile__logout" type="button">
 							<span>Sign out</span>
@@ -547,6 +574,7 @@ $dir = "./";
 	<script src="plugins/loader/waitMe.js"></script>
 	<script src="js/forms.js"></script>
 	<script src="js/favourites.js"></script>
+    <script src="js/themes.js"></script>
 	<script src="plugins/datatable/js/jquery.dataTables.min.js"></script>
 	<script src="plugins/datatable/js/responsive.bootstrap4.min.js"></script>
 	<script src="plugins/datatable/js/dataTables.responsive.min.js"></script>
