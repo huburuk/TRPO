@@ -91,16 +91,16 @@ $dir = "./";
 	          </ul>
 <!--                        <div class="container">-->
 <!--                            <div class="catalog__select-wrap">-->
-                                <div class="slider-radio" >
-                                    <input type="radio" name="popular"><label class="light-theme-label"
-                                                                              style="height: 100%;"
-                                                                              onclick="localStorage.setItem('theme', 'light'); location.reload();"
-                                                                              for="popular">Light</label>
-                                    <input type="radio" name="newest"><label class="dark-theme-label"
-                                                                             style="height: 100%;"
-                                                                             onclick="localStorage.setItem('theme', 'dark'); location.reload();"
-                                                                             for="newest">Dark</label>
-                                </div>
+<!--                                <div class="slider-radio" >-->
+<!--                                    <input type="radio" name="popular"><label class="light-theme-label"-->
+<!--                                                                              style="height: 100%;"-->
+<!--                                                                              onclick="localStorage.setItem('theme', 'light'); location.reload();"-->
+<!--                                                                              for="popular">Light</label>-->
+<!--                                    <input type="radio" name="newest"><label class="dark-theme-label"-->
+<!--                                                                             style="height: 100%;"-->
+<!--                                                                             onclick="localStorage.setItem('theme', 'dark'); location.reload();"-->
+<!--                                                                             for="newest">Dark</label>-->
+<!--                                </div>-->
 <!--                            </div>-->
 <!--                        </div>-->
 

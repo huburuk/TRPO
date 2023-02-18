@@ -115,8 +115,8 @@ header("location:../");
             $conn = new PDO('mysql:host='.DBHost.';dbname='.DBName.';charset='.DBCharset.';collation='.DBCollation.';prefix='.DBPrefix.'', DBUser, DBPass);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            $stmt = $conn->prepare("SELECT * FROM tbl_items WHERE status = 'Visible' AND title LIKE ? ORDER BY c_id DESC LIMIT $page1,$rpp");
-            $stmt->execute([$keywords]);
+            $stmt = $conn->prepare("SELECT * FROM tbl_items WHERE status = 'Visible' AND title LIKE ? OR item_id = (SELECT item_id FROM tbl_actors WHERE actor LIKE ?) OR year LIKE ? OR genres LIKE ? ORDER BY c_id DESC LIMIT $page1,$rpp");
+            $stmt->execute([$keywords, $keywords, $keywords, $keywords]);
             $result = $stmt->fetchAll();
 
             if (count($result) < 1) {$current = 0;}

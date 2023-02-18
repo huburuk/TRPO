@@ -4979,9 +4979,9 @@ body::-webkit-scrollbar-thumb {
 .comments__form {
     border-radius: 16px;
     padding: 20px;
-    border: 1px solid #4a875c1a;
+    border: 1px solid #143f62;
     margin-top: 60px;
-    background-color: #111111;
+    background-color: #143f62;
 }
 
 .comments__form .row {
@@ -5129,9 +5129,9 @@ body::-webkit-scrollbar-thumb {
 .reviews__form {
     border-radius: 16px;
     padding: 20px;
-    border: 1px solid #4a875c1a;
+    border: 1px solid #143f62;
     margin-top: 60px;
-    background-color: #111111;
+    background-color: #143f62;
 }
 
 .reviews__form .row {
