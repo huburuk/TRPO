@@ -37,7 +37,7 @@ $dir = "./";
 	<link rel="stylesheet" href="css/select2.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/plyr.css">
-	<link rel="stylesheet" href="css/appLight.css">
+<!--	<link rel="stylesheet" href="css/appLight.css">-->
 	<link type="text/css" rel="stylesheet" href="plugins/loader/waitMe.css">
 	<link rel="icon" href="icon/<?php echo AppIcon; ?>" sizes="32x32">
 	<meta name="description" content="<?php echo AppDesc; ?>">
@@ -121,6 +121,7 @@ $dir = "./";
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/plyr.min.js"></script>
 	<script src="js/main.js"></script>
+    <script src="js/themes.js"></script>
 	<script src="plugins/loader/waitMe.js"></script>
 	<script src="js/contact.js"></script>
 </body>

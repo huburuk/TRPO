@@ -61,7 +61,7 @@ try {
 	<link rel="stylesheet" href="css/select2.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/plyr.css">
-	<link rel="stylesheet" href="css/appLight.css">
+<!--	<link rel="stylesheet" href="css/appLight.css">-->
 	<link rel="icon" href="icon/<?php echo AppIcon; ?>" sizes="32x32">
 	<meta name="description" content="<?php echo AppDesc; ?>">
 	<meta name="keywords" content="<?php echo AppKeywords; ?>">
@@ -437,6 +437,7 @@ try {
 	<script src="js/slider-radio.js"></script>
 	<script src="js/select2.min.js"></script>
 	<script src="js/smooth-scrollbar.js"></script>
+    <script src="js/themes.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/plyr.min.js"></script>
 	<script src="js/main.js"></script>

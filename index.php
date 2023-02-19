@@ -29,6 +29,7 @@ $dir = "./";
 <html lang="en">
 
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -40,7 +41,8 @@ $dir = "./";
 	<link rel="stylesheet" href="css/select2.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/plyr.css">
-	<link rel="stylesheet" href="css/appLight.css">
+<!--	<link rel="stylesheet" href="css/appLight.css">-->
+    <script src="js/themes.js"></script>
 	<link type="text/css" rel="stylesheet" href="plugins/loader/waitMe.css">
 	<link rel="icon" href="icon/<?php echo AppIcon; ?>" sizes="32x32">
 
@@ -62,7 +64,6 @@ $dir = "./";
 	<?php require_once('const/draws/header.php'); ?>
 	<?php require_once('const/draws/most_views.php'); ?>
 	<?php require_once('const/draws/catalog.php'); ?>
-	<?php require_once('const/draws/home_pricing.php'); ?>
 	<?php require_once('const/draws/footer.php'); ?>
 
 	<!-- Подключени необходимых скриптов -->
@@ -73,6 +74,7 @@ $dir = "./";
 	<script src="js/slider-radio.js"></script>
 	<script src="js/select2.min.js"></script>
 	<script src="js/smooth-scrollbar.js"></script>
+<!--    <script src="js/themes.js"></script>-->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/plyr.min.js"></script>
 	<script src="js/main.js"></script>

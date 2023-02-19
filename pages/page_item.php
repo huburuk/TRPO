@@ -31,15 +31,17 @@ $dlink = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../../js/themesFilm.js"></script>
 
-	<link rel="stylesheet" href="../../css/boot.css">
+    <link rel="stylesheet" href="../../css/boot.css">
 	<link rel="stylesheet" href="../../css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
 	<link rel="stylesheet" href="../../css/slider-radio.css">
 	<link rel="stylesheet" href="../../css/select2.min.css">
 	<link rel="stylesheet" href="../../css/magnific-popup.css">
 	<link rel="stylesheet" href="../../css/plyr.css">
-	<link rel="stylesheet" href="../../css/appLight.css">
+<!--    <script src="js/themes.js"></script>-->
+<!--	<link rel="stylesheet" href="../../css/appLight.css">-->
 	<link type="text/css" rel="stylesheet" href="../../plugins/loader/waitMe.css">
 	<link rel="icon" href="../../icon/<?php echo AppIcon; ?>" sizes="32x32">
 	<meta name="description" content="<?php echo AppDesc; ?>">
@@ -64,6 +66,7 @@ $dlink = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['
 	<script src="../../js/slider-radio.js"></script>
 	<script src="../../js/select2.min.js"></script>
 	<script src="../../js/smooth-scrollbar.js"></script>
+<!--    <script src="js/themes.js"></script>-->
 	<script src="../../js/jquery.magnific-popup.min.js"></script>
 	<script src="../../js/plyr.min.js"></script>
 	<script src="../../js/main.js"></script>
